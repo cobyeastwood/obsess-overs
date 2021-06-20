@@ -34,7 +34,7 @@ As a brief overview the project includes:
 - File uploading / SMS
 - SQL database querying and storing
 
-In addition, I added a cool ORC feature with [gosseract](https://github.com/otiai10/gosseract) for allowing users to extract food items from uploaded receipts to add to a pantry allowing you to store all of your ingredients then selectively pick some to search recipes.
+In addition, I added a cool ORC feature for allowing users to extract food items from uploaded receipts to add to a pantry allowing you to store all of your ingredients then selectively pick some to search recipes.
 
 ### Technologies
-Frontend includes React, and Redux. Backend was built with Go libraries gin-gonic, gosseract, and Redis/Postgres as a database.
+Frontend includes React, and Redux. Backend was built with Go libraries [gin-gonic](https://github.com/gin-gonic/gin), [gosseract](https://github.com/otiai10/gosseract), and Redis/Postgres as a database.
