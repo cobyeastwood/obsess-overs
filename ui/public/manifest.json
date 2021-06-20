@@ -1,0 +1,9 @@
+{
+	"short_name": "Obesess Overs",
+	"name": "The Obsess Overs Project.",
+	"icons": [],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

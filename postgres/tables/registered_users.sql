@@ -1,0 +1,12 @@
+CREATE TABLE registered_users (
+  id BIGSERIAL NOT NULL PRIMARY KEY,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  created_at TIMESTAMP WITH TIME ZONE,
+  email VARCHAR(190) NOT NULL UNIQUE,
+  password_hash VARCHAR(150) NOT NULL,
+  address1 VARCHAR(250) NOT NULL,
+  address2 VARCHAR(250) NOT NULL,
+  city VARCHAR(250) NOT NULL,
+  zip VARCHAR(10) NOT NULL
+);
