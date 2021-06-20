@@ -24,7 +24,7 @@ Obsess Overs is a side project to help others better organize, sort, and manage 
 <br/>
 [types](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - Go structs, methods, and DB Drivers
 <br/>
-[utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - SMS and JSON retrieval
+[utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - SMS and JSON
 
 ### Overview
 As a brief overview the project includes:
