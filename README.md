@@ -1,7 +1,7 @@
 # Obsess Overs
 
 ### Description
-Obsess Overs is a side project to help others better organize, sort, and manage favorite leftover home ingredients. I built this as a cool idea to work with leftover ingredients at home. Works when you fully upload [Food.com Recipes and Interactions](https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions) a free Kaggle CSV Dataset with over 180K+ recipes into Postgres.
+Obsess Overs is a side project to help others <em>organize, sort, and manage favorite leftover home ingredients</em>. I built this as a cool idea to work with leftover ingredients at home. <br/> <br/>For testing you will need to upload two large Kaggle datasets <strong>RAW_recipes.csv</strong> and <strong>RAW_interactions.csv</strong> from [Food.com Recipes and Interactions](https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions) into Postgres.
 
 ### Preview - About
 
@@ -16,22 +16,18 @@ Obsess Overs is a side project to help others better organize, sort, and manage 
 <br/>
 
 ### Folder Structure
-[ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React redux, routing, hocs, components, pages, and styles
-<br/>
-[api](https://github.com/cobyeastwood/ObsessOvers/tree/main/api) - Go routes
-<br/>
-[postgres](https://github.com/cobyeastwood/ObsessOvers/tree/main/postgres) - SQL tables
-<br/>
-[types](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - Go structs, methods, and DB Drivers
-<br/>
-[utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - SMS and JSON
+* [ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React redux, routing, hocs, components, pages and styles
+* [api](https://github.com/cobyeastwood/ObsessOvers/tree/main/api) - Go routes
+* [postgres](https://github.com/cobyeastwood/ObsessOvers/tree/main/postgres) - SQL tables
+* [types](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - Go structs, methods and DB drivers/connectors
+* [utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - SMS and JSON
 
 ### Overview
 As a brief overview the project includes:
 
 - React and Go routing
 - Password hashing / login / logout
-- File uploading / SMS
+- File uploading / image processing / SMS
 - SQL database querying and storing
 
 In addition, I added a cool ORC feature for allowing users to extract food items from uploaded receipts to add to a pantry allowing you to store all of your ingredients then selectively pick some to search recipes.
