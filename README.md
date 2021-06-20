@@ -1,6 +1,12 @@
 # Obsess Overs
+
 ### Description
 Obsess Overs is a side project to help others better organize, sort, and manage favorite leftover home ingredients. I built this as a cool idea to work with leftover ingredients at home.
+
+### Preview
+<br/>
+<img width="1414" alt="obsessovers" src="https://user-images.githubusercontent.com/61709523/122663386-e552df80-d14e-11eb-8946-3026fd54ab90.png">
+<br/>
 
 ### Folder Structure
 [ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React redux, routing, hocs, components, pages, and styles
@@ -21,7 +27,7 @@ As a brief overview the project includes:
 - File uploading / SMS
 - SQL database querying and storing
 
-I also added a cool ORC feature for allowing users to extract food items from uploaded receipts to add to a fridge allowing you to store all of your ingredients then selectively pick some to search recipes.
+In addition, I added a cool ORC feature with [gosseract](https://github.com/otiai10/gosseract) for allowing users to extract food items from uploaded receipts to add to a fridge allowing you to store all of your ingredients then selectively pick some to search recipes.
 
 ### Technologies
-Frontend includes React, and Redux. Backend was built with Go libraries like gin-gonic, gosseract, and Redis/Postgres as a database.
+Frontend includes React, and Redux. Backend was built with Go libraries gin-gonic, gosseract, and Redis/Postgres as a database.
