@@ -1,7 +1,7 @@
 # Obsess Overs
 
 ### Description
-Obsess Overs is a side project to help others <em>organize, sort, and manage favorite leftover home ingredients</em>. I built this as a cool idea to work with leftover ingredients at home. <br/> <br/>For testing you will need to upload two large Kaggle datasets <strong>RAW_recipes.csv</strong> and <strong>RAW_interactions.csv</strong> from [Food.com Recipes and Interactions](https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions) into Postgres.
+Obsess Overs is a side project to help others best <em>organize, sort, and manage favorite leftover home ingredients</em>. I built this as a cool idea to work with leftover ingredients at home. <br/> <br/>For testing you will need to upload two large Kaggle datasets <strong>RAW_recipes.csv</strong> and <strong>RAW_interactions.csv</strong> from [Food.com Recipes and Interactions](https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions) into Postgres.
 
 ### Preview - About
 
