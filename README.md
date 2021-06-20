@@ -2,7 +2,6 @@
 
 ### Description
 Obsess Overs is a side project to help others best <em>organize, sort, and manage favorite leftover home ingredients</em>. I built this as a cool idea to work with leftover ingredients at home. 
-
 <br/>
 
 For testing you will need to upload two large Kaggle datasets <strong>RAW_recipes.csv</strong> and <strong>RAW_interactions.csv</strong> from [Food.com Recipes and Interactions](https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions) into Postgres.
@@ -22,7 +21,7 @@ For testing you will need to upload two large Kaggle datasets <strong>RAW_recipe
 ### Folder Structure
 * [api](https://github.com/cobyeastwood/ObsessOvers/tree/main/api) - Go routes
 * [postgres](https://github.com/cobyeastwood/ObsessOvers/tree/main/postgres) - SQL tables
-* [types](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - Go structs, methods and DB drivers/connectors
+* [types](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - Go structs, methods and DB drivers / connectors
 * [ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React, redux, routing, hocs, components, pages and styles
 * [utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/utility) - SMS and JSON
 
