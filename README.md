@@ -3,7 +3,7 @@
 ### Description
 Obsess Overs is a side project to help others best <em>organize, sort, and manage favorite leftover home ingredients</em>. I built this as a cool idea to work with leftover ingredients at home. 
 
-<br/><br/> 
+<br/>
 
 For testing you will need to upload two large Kaggle datasets <strong>RAW_recipes.csv</strong> and <strong>RAW_interactions.csv</strong> from [Food.com Recipes and Interactions](https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions) into Postgres.
 
@@ -26,16 +26,22 @@ For testing you will need to upload two large Kaggle datasets <strong>RAW_recipe
 * [ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React, redux, routing, hocs, components, pages and styles
 * [utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/utility) - SMS and JSON
 
+<br/> 
+
 ### Overview
 As a brief overview, this project includes:
 
 - React and Go routing
 - Password hashing / login / logout
 - File uploading / image processing / SMS
-- Postgres and Redis connections 
+- Postgres and Redis drivers
 - SQL querying, insertions and deletions
 
 In addition, I added a cool ORC feature for allowing users to extract food items from uploaded receipts to add to a pantry allowing you to store all of your ingredients then selectively pick some to search recipes.
 
+<br/> 
+
 ### Technologies
 Frontend includes React, and Redux. Backend was built with Go libraries [gin-gonic](https://github.com/gin-gonic/gin), [gosseract](https://github.com/otiai10/gosseract), and Redis/Postgres as a database.
+
+<br/> 
