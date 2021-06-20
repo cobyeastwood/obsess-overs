@@ -22,7 +22,7 @@ For testing you will need to upload two large Kaggle datasets <strong>RAW_recipe
 * [api](https://github.com/cobyeastwood/ObsessOvers/tree/main/api) - Go routes
 * [postgres](https://github.com/cobyeastwood/ObsessOvers/tree/main/postgres) - SQL tables
 * [types](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - Go structs, methods and DB drivers / connectors
-* [ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React, redux, routing, hocs, components, pages and styles
+* [ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React, Redux, routing, hocs, components, pages and styles
 * [utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/utility) - SMS and JSON
 
 <br/> 
@@ -34,13 +34,15 @@ As a brief overview, this project includes:
 - Password hashing / login / logout
 - File uploading / image processing / SMS
 - Postgres and Redis drivers
-- SQL querying, insertions and deletions
+- SQL queries, insertions and deletions
 
-In addition, I added a cool ORC feature for allowing users to extract food items from uploaded receipts to add to a pantry allowing you to store all of your ingredients then selectively pick some to search recipes.
+In addition, I added a cool ORC feature for allowing users to extract food items from uploaded receipts to their pantry to store new ingredients and manage their existing leftovers to pick the best-suited recipes.
+
+In the future, I would like to add expiring date notifications and tags for food items as they are placed in the users' pantry. I also, want to allow users to upload new recipes both privately and publicly.
 
 <br/> 
 
 ### Technologies
-Frontend includes React, and Redux. Backend was built with Go libraries [gin-gonic](https://github.com/gin-gonic/gin), [gosseract](https://github.com/otiai10/gosseract), and Redis/Postgres as a database.
+Frontend includes React and Redux. Backend was built with Go libraries [gin-gonic](https://github.com/gin-gonic/gin), [gosseract](https://github.com/otiai10/gosseract) and Redis/Postgres as databases.
 
 <br/> 
