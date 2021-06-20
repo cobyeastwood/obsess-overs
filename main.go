@@ -1,7 +1,7 @@
 /*
 	OBSESS OVERS PROJECT
 	@name: main
-	@desc: Obsess Overs project established to better organize, sort, and manage favorite leftover home ingredients
+	@desc: Obsess Overs a project to help others better organize, sort, and manage favorite leftover home ingredients
 	@date: Oct 12, 2020
 */
 
