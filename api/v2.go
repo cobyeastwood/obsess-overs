@@ -166,10 +166,6 @@ func PostIngredientByImage(d *types.Driver, r *redis.Client) gin.HandlerFunc {
 
 		defer file.Close()
 
-		fmt.Printf("%s", h.Filename)
-		fmt.Printf("%d", h.Size)
-		fmt.Printf("%s", h.Header)
-
 		i := strings.LastIndex(h.Filename, ".")
 
 		if i > 0 {
@@ -260,8 +256,7 @@ func WriteToImage() {
 
 // ORC func
 func ORC() {
-	extracted, _ := ImageToString("temp-images/upload-609936680.jpeg")
-	fmt.Printf(extracted)
+	ImageToString("temp-images/upload-609936680.jpeg")
 }
 
 // ImageToString func

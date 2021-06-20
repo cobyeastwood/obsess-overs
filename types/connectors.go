@@ -117,8 +117,6 @@ func (d *Driver) SelectBySearchExact(f, w string, q int, v []string) (*sql.Rows,
 // InsertWithValues func -- Driver INSERT method
 func (d *Driver) InsertWithValues(f string, v ...interface{}) (*sql.Rows, error) {
 
-	fmt.Printf("%v, %d\n", v, len(v))
-
 	var str string
 
 	for i := range v {
@@ -135,8 +133,6 @@ func (d *Driver) InsertWithValues(f string, v ...interface{}) (*sql.Rows, error)
 
 // DeleteWithValues func -- Driver DELETE method
 func (d *Driver) DeleteWithValues(f string, v []string) (sql.Result, error) {
-
-	fmt.Printf("%v, %d\n", v, len(v))
 
 	var str string
 
