@@ -3,10 +3,14 @@
 Obsess Overs is a side project to help others better organize, sort, and manage favorite leftover home ingredients. I built this as a cool idea to work with leftover ingredients at home.
 
 ### Folder Structure
-[ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - frontend logic, with React components, pages, styles and hocs
-[api](https://github.com/cobyeastwood/ObsessOvers/tree/main/api) - backend routes
+[ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React redux, routing, hocs, components, pages, and styles
+<br/>
+[api](https://github.com/cobyeastwood/ObsessOvers/tree/main/api) - Go routes
+<br/>
 [postgres](https://github.com/cobyeastwood/ObsessOvers/tree/main/postgres) - SQL tables
+<br/>
 [types](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - Go structs, methods, and DB Drivers
+<br/>
 [utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - SMS and JSON retrieval
 
 ### Overview
