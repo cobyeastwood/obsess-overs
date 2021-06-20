@@ -16,11 +16,11 @@ Obsess Overs is a side project to help others best <em>organize, sort, and manag
 <br/>
 
 ### Folder Structure
-* [ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React redux, routing, hocs, components, pages and styles
 * [api](https://github.com/cobyeastwood/ObsessOvers/tree/main/api) - Go routes
 * [postgres](https://github.com/cobyeastwood/ObsessOvers/tree/main/postgres) - SQL tables
 * [types](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - Go structs, methods and DB drivers/connectors
-* [utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - SMS and JSON
+* [ui](https://github.com/cobyeastwood/ObsessOvers/tree/main/ui) - React redux, routing, hocs, components, pages and styles
+* [utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/utility) - SMS and JSON
 
 ### Overview
 As a brief overview, this project includes:
