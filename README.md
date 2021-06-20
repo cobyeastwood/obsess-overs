@@ -23,7 +23,7 @@ Obsess Overs is a side project to help others <em>organize, sort, and manage fav
 * [utility](https://github.com/cobyeastwood/ObsessOvers/tree/main/types) - SMS and JSON
 
 ### Overview
-As a brief overview the project includes:
+As a brief overview, this project includes:
 
 - React and Go routing
 - Password hashing / login / logout
