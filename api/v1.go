@@ -183,6 +183,3 @@ func GetIngredientsBySearch(d *types.Driver) gin.HandlerFunc {
 // @name: v1
 // @desc: Holds all v1 sub controllers
 // @date: Oct 13, 2020
-
-// Image Cloud
-// https://github.com/GoogleCloudPlatform/golang-samples/blob/master/vision/detect/detect.go
