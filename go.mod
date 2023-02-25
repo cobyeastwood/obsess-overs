@@ -15,8 +15,7 @@ require (
 	github.com/otiai10/gosseract v2.2.1+incompatible
 	github.com/otiai10/mint v1.3.2 // indirect
 	github.com/twinj/uuid v1.0.0
-	golang.org/x/crypto v0.0.0-20201112155050-0c6587e931a9
+	golang.org/x/crypto v0.1.0
 	golang.org/x/image v0.0.0-20201208152932-35266b937fa6 // indirect
-	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
 	gopkg.in/stretchr/testify.v1 v1.2.2 // indirect
 )
