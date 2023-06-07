@@ -45,7 +45,7 @@ In the future, I would like to add expiring date notifications and tags for food
 
 <br/>
 
-### Technologies
+### Technologies Used
 
 Frontend includes React and Redux. Backend was built with Go libraries [gin-gonic](https://github.com/gin-gonic/gin), [gosseract](https://github.com/otiai10/gosseract) and Redis/Postgres as databases.
 
